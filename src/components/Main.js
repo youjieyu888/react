@@ -7,6 +7,7 @@ import { Switch, Route, Redirect } from 'react-router-dom';
 
 export class Main extends React.Component {
     getLogin = () => {
+        //redirect to : change url and render
         return this.props.isLoggedIn ? <Redirect to="/home"/> : <Login handleSuccessfulLogin={this.props.handleSuccessfulLogin}/>;
     }
 
