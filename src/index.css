@@ -1,9 +1,11 @@
+
 @import '~antd/dist/antd.css';
 @import 'styles/App.css';
 @import 'styles/Register.css';
 @import 'styles/Main.css';
-@import 'styles/login.css';
-/*this is the entry of all css, if you need any css, import here and create it*/
+@import 'styles/Login.css';
+@import 'styles/TopBar.css';
+
 body {
   margin: 0;
   padding: 0;
